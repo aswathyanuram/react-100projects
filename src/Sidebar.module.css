@@ -1,23 +1,45 @@
-body {
+* {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .sidebar {
   width: 200px;
-  height: 100vh;
-  background-color: rgb(225, 225, 225);
-  padding-top: 0.5rem;
+  min-height: 100vh;
+  max-height: 100vh;
+  background-color: #2e2b4a;
+  padding-top: 0.25rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .titlecard {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  background-color: rgb(238, 238, 238);
+  color: #6e6d7a;
   cursor: pointer;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   margin: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem;
 }
 
 .titlecard:hover {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+  background-color: #2b385a;
+  border-radius: 0.5rem;
+  color: #48cffb;
+}
+
+.titlecardSelected {
+  background-color: #2b385a;
+  border-radius: 0.5rem;
+  color: #48cffb;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem;
 }
