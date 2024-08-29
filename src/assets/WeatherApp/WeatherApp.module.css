@@ -1,0 +1,110 @@
+.container {
+  background-color: #26233e;
+  border-radius: 0.5rem;
+  height: 500px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.title {
+  color: #717272;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.search {
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  width: 300px;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  background-color: #40485d;
+  color: #cfcfcf;
+}
+
+.weathercontainer {
+  height: 350px;
+  width: 300px;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #40485d;
+  color: #cfcfcf;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.city {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.temp {
+  position: absolute;
+  left: 3rem;
+  top: 5rem;
+  font-size: 3rem;
+}
+
+.climate {
+  width: 50px;
+  position: absolute;
+  right: 4rem;
+  top: 5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.maxtemp {
+  position: absolute;
+  right: 1.5rem;
+  top: 8.5rem;
+}
+.mintemp {
+  position: absolute;
+  right: 1.5rem;
+  top: 10rem;
+}
+.feelsliketemp {
+  position: absolute;
+  left: 3rem;
+  bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.humidity {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  position: absolute;
+  top: 45%;
+  border-radius: 3rem;
+  width: 80px;
+  height: 80px;
+}
+.icon {
+  position: absolute;
+  left: 0.75rem;
+  font-size: 4rem;
+}
+
+.degree,
+.percentage {
+  font-size: 3rem;
+}
