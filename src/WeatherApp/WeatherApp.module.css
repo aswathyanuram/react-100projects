@@ -1,13 +1,12 @@
 .container {
-  background-color: #26233e;
+  background-color: #2e2b4a;
   border-radius: 0.5rem;
-  height: 500px;
   width: 350px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 
 .title {
@@ -28,7 +27,7 @@
 }
 
 .weathercontainer {
-  height: 350px;
+  min-height: 350px;
   width: 300px;
   border-radius: 2rem;
   padding: 0.5rem;
@@ -49,7 +48,7 @@
 
 .temp {
   position: absolute;
-  left: 3rem;
+  left: 2rem;
   top: 5rem;
   font-size: 3rem;
 }
@@ -107,4 +106,31 @@
 .degree,
 .percentage {
   font-size: 3rem;
+}
+
+.inputContainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.inputIcon {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+}
+
+.optionValue {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 0.5rem 0.25rem;
+}
+
+.optionWrapper {
+  max-height: 100px;
+  min-height: 100px;
+  width: 300px;
+  overflow: scroll;
 }
