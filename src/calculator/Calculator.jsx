@@ -70,11 +70,11 @@ export default function Calculator() {
                     setData(eval(data));
                   }
                 } else {
-                  onBtnClick(item.value);
+                  onBtnClick(value);
                 }
               }}
             >
-              {item.value}
+              {value}
             </button>
           );
         })}
