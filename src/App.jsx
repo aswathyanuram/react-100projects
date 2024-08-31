@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Sidebar from "./Sidebar";
 import styles from "./App.module.css";
 import ToDo from "./ToDo/ToDo";
 import WeatherApp from "./WeatherApp/WeatherApp";
 import Calculator from "./calculator/Calculator";
+import Notes from "./notes/Notes";
 
 export default function App() {
   const titles = [
@@ -21,6 +22,11 @@ export default function App() {
       id: 3,
       title: "Calculator",
       app: <Calculator />,
+    },
+    {
+      id: 4,
+      title: "Notes",
+      app: <Notes />,
     },
   ];
   const [selectedTitle, setSelectedTitle] = useState(titles?.[0]);

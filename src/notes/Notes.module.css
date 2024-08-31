@@ -1,0 +1,75 @@
+.container {
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 0.5rem;
+  background-color: #2e2b4a;
+}
+
+.listContainer {
+  width: 250px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.contentContainer {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top: 1rem;
+  background-color: #373357;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.createInput {
+  outline: none;
+  border: none;
+  padding: 0.2rem;
+  background-color: #40485d;
+  color: #fefefe;
+}
+
+.create {
+  outline: none;
+  border: none;
+  padding: 0.2rem;
+  margin-left: 0.5rem;
+  background-color: #19a8ea;
+  font-weight: 600;
+  border-radius: 0.2rem;
+}
+
+.textarea {
+  width: 80%;
+  outline: none;
+  border: none;
+  padding: 0.2rem;
+  background-color: #40485d;
+  border-radius: 0.2rem;
+  color: #fefefe;
+}
+
+.notes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.note {
+  background-color: #19172b;
+  width: 210px;
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+}
